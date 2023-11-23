@@ -24,6 +24,7 @@ class Line {
         Scanner sc=new Scanner(System.in);
         System.out.println("WELCOME TO LINE COMPARISON COMPUTATION");
         point startpoint1=new point(sc.nextInt(), sc.nextInt());
+
         String s1="";
         s1+=startpoint1.getX();
         s1+=startpoint1.getY();
@@ -67,6 +68,17 @@ class Line {
 
 
         System.out.println(length_line1+" "+length_line2);
+
+        point endpoint1=new point(sc.nextInt(),sc.nextInt());
+
+        Line line1=new Line(startpoint1,endpoint1);
+        double length_line1=Line.calculatelength();
+
+        Line line1=new Line(startpoint,endpoint);
+        double length_line1=Line.calculatelength();
+      
+
+
 
     }
 
