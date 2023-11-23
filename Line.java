@@ -24,9 +24,14 @@ class Line {
         System.out.println("WELCOME TO LINE COMPARISON COMPUTATION");
         point startpoint1=new point(sc.nextInt(), sc.nextInt());
         point endpoint1=new point(sc.nextInt(),sc.nextInt());
+
+        Line line1=new Line(startpoint1,endpoint1);
+        double length_line1=Line.calculatelength();
+
         Line line1=new Line(startpoint,endpoint);
         double length_line1=Line.calculatelength();
       
+
 
     }
 
