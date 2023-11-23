@@ -1,5 +1,6 @@
 import java.util.*;
 
+
 class Line {
     private static point startpoint;
     private static point endpoint;
