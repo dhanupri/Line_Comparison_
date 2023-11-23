@@ -22,11 +22,11 @@ class Line {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         System.out.println("WELCOME TO LINE COMPARISON COMPUTATION");
-        point startpoint=new point(sc.nextInt(), sc.nextInt());
-        point endpoint=new point(sc.nextInt(),sc.nextInt());
-        Line line=new Line(startpoint,endpoint);
-        double length=Line.calculatelength();
-        System.out.println(length);
+        point startpoint1=new point(sc.nextInt(), sc.nextInt());
+        point endpoint1=new point(sc.nextInt(),sc.nextInt());
+        Line line1=new Line(startpoint,endpoint);
+        double length_line1=Line.calculatelength();
+      
 
     }
 
