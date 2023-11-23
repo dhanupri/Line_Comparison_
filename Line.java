@@ -45,6 +45,10 @@ class Line {
         Line line2=new Line(startpoint2,endpoint2);
         double length_line2=Line.calculatelength();
 
+        Integer line1_result=(int)length_line1;
+        Integer line2_result=(int)length_line2;
+
+
 
 
 
@@ -60,6 +64,18 @@ class Line {
            System.out.println("line1 is not equal to line2");
 
        }
+
+       if(line1_result.compareTo(line2_result)<0){
+           System.out.println("Line1 is smaller than Line2");
+
+       }
+       else if(line1_result.compareTo(line2_result)>0){
+           System.out.println("Line1 is larger than Line2");
+       }
+       else{
+           System.out.println("Line1 is equal to Line 2" );
+       }
+
 
 
 
